@@ -1,5 +1,8 @@
-var oLi=document.getElementsByTagName("li");
-var oBox=document.getElementById("box");
+
+var oP=document.getElementById("options");
+var oL=document.getElementById("list");
+var oLi=oP.getElementsByTagName("li");
+var oBox=oL.getElementsByTagName("li");
 for(var i=0;i<oLi.length;i++){
     oLi[i].index=i;
     oLi[i].onclick=function(){
